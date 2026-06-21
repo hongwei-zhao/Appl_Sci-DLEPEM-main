@@ -3,7 +3,7 @@
 [![Framework](https://img.shields.io/badge/PyTorch-Methodology-red.svg)](https://pytorch.org/) 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-This repository contains the official PyTorch implementation for *[DLEPEM: Dynamic LoRA-Experts and Prototype-Ensemble Matching for Class-Incremental Learning](https://www.mdpi.com/2076-3417/16/12/6153)*.
+This repository contains the official PyTorch implementation for *[Dynamic LoRA-Experts and Prototype-Ensemble Matching for Class-Incremental Learning](https://www.mdpi.com/2076-3417/16/12/6153)*.
 
 DLEPEM provides an innovative parameter-efficient framework that tackles the **Stability-Plasticity Intertwinement** in class-incremental learning (CIL). By introducing MoE-style dynamic allocation of LoRA-Experts with an ensemble prototyping match, it isolates representation disruptions across subsequent tasks, successfully sidestepping catastrophic forgetting and achieving state-of-the-art results on both standard CIL and few-shot CIL (FSCIL) paradigms.
 
